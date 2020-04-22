@@ -18,3 +18,23 @@ Sending the access token explicitly in the request header every time.
 ## Cross Site Scripting (XSS)
 #### How to enforce?
 Use a sanitizer for every Input field in your site.
+
+
+# External Identity Providers
+Google, Facebook, Twitter, LinkedIn
+
+# Cloud or On Premise Identity Providers
+
+#### Azure Active Directory
+* AAD Business to Consumer (B2C): OpenID support and works on all accounts, not only MS
+
+#### Identity as a Service Providers
+* Auth0
+* Ping
+* Okta
+
+#### Identity Server 4
+* Open Source Identity Provider Framework
+* Requires set up and configuration
+* Requires to be hosted in a VM
+* Most flexible option for Single Sign On (SSO) federation scenarios
