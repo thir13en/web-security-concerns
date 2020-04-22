@@ -38,3 +38,18 @@ Google, Facebook, Twitter, LinkedIn
 * Requires set up and configuration
 * Requires to be hosted in a VM
 * Most flexible option for Single Sign On (SSO) federation scenarios
+
+
+# JavaScript Clients
+
+#### Angular JWT
+Only manages jwt tokens and is up to you to manage connection with Identity Provider
+
+#### ADAL
+Specific for Azure, not compliant with OpenID
+
+#### MSAL
+Specific for Azure, compliant with OpenID Connect Standard
+
+#### oidc-client
+Fully protocol compliant implementation of the client OpenID flows that is not attached to any specific Identity Provider (recommended)
